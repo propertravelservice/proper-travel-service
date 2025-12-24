@@ -340,3 +340,13 @@ h1 {
   .grid-3 { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
 }
+
+.brand-logo{
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 760px){
+  .brand-logo{ height: 28px; }
+}
